@@ -2,17 +2,20 @@
 
 Deno Module to forward requests from unsafe port 80 to safe port 443.
 
-## Usage Example 
-```ts
-
-
-```
-## Execute the tests
+## Usage Example including pm2 start
 ```sh
   
-  
-``` 
-  
+deno run --allow-read --allow-net forwarder.ts
+
+```
+
+or 
+
+```sh
+
+pm2 start  --interpreter="deno" --interpreter-args="run --allow-net --allow-read" forwarder.ts
+
+```
 
 ## Support my Open Source Contributions  
 
