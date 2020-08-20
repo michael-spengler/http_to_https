@@ -10,8 +10,12 @@ deno run --allow-read --allow-net https://deno.land/x/http_to_https/forwarder.ts
 
 ```
 
+or via pm2 
+
 ```sh
 
+git clone https://github.com/michael-spengler/http_to_https.git
+cd http_to_https
 pm2 start  --interpreter="deno" --interpreter-args="run --allow-net --allow-read" forwarder.ts
 
 ```
