@@ -1,10 +1,10 @@
 {
-                                "name": "",
-                                "description": "",
-                                "homepage": "",
-                                "files": [
-                                  "./**/*.ts",
-                                  "README.md"
-                                ],
-                                "entry": "./mod.ts"
-                              }
+        "name": "http_to_https",
+        "description": "🦕       module to forward unsafe requests from port 80 to safe port 443. ",
+        "homepage": "https://github.com/michael-spengler/http_to_https",
+        "files": [
+            "./**/*.ts",
+            "README.md"
+        ],
+        "entry": "./mod.ts"
+}
