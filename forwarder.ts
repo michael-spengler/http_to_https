@@ -1,4 +1,4 @@
-import { opine } from "https://deno.land/x/opine@0.20.2/mod.ts";
+import { opine } from "./deps.ts";
 
 export class Forwarder {
 
